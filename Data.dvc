@@ -1,6 +1,81 @@
 outs:
-- md5: 25da056f8be5918d097ceb9099ec649b.dir
-  size: 2936768
-  nfiles: 11
-  hash: md5
+- hash: md5
   path: Data
+  files:
+  - relpath: .gitignore
+    md5: 9c8dcb5043870cff008202e2145453f7
+    size: 16
+    cloud:
+      s3:
+        etag: 9c8dcb5043870cff008202e2145453f7
+        version_id: d52ea9a3-c841-43a3-a8b7-677bb77a910b
+  - relpath: How_to_process_data.md
+    md5: d3f07a4f851ff6c396bba59452ea08e6
+    size: 96
+    cloud:
+      s3:
+        etag: d3f07a4f851ff6c396bba59452ea08e6
+        version_id: bde784dd-fd47-4c35-ba52-f89a5515c0e2
+  - relpath: Processed/names.txt
+    md5: 119891b4e6681e7b0ee587a42071fc16
+    size: 76619
+    cloud:
+      s3:
+        etag: 119891b4e6681e7b0ee587a42071fc16
+        version_id: f4573282-586b-4570-8105-e31c78f73473
+  - relpath: Raw/01.txt
+    md5: b0e18996a946c33f0506e59d3499601f
+    size: 43888
+    cloud:
+      s3:
+        etag: b0e18996a946c33f0506e59d3499601f
+        version_id: 90d73a85-6dbd-426f-aa2d-2f07a6b682fd
+  - relpath: Raw/02.txt
+    md5: a3fdc7b98a9ca0b5717f8bf84d9f3fff
+    size: 69289
+    cloud:
+      s3:
+        etag: a3fdc7b98a9ca0b5717f8bf84d9f3fff
+        version_id: a333eb81-e5d5-4985-85c6-d94eec5449c4
+  - relpath: Raw/03.html
+    md5: 6ea2672f7899decdfc9669a1b33a4b02
+    size: 243241
+    cloud:
+      s3:
+        etag: 6ea2672f7899decdfc9669a1b33a4b02
+        version_id: d39aae1f-2837-40ff-9ef2-003385a75bf6
+  - relpath: Raw/04.html
+    md5: 30e80155ca396b9a700a9c9cf63fd21f
+    size: 1017817
+    cloud:
+      s3:
+        etag: 30e80155ca396b9a700a9c9cf63fd21f
+        version_id: 07c2c4a4-e330-47b3-baf7-1a3449054bc9
+  - relpath: Raw/05.html
+    md5: 9805f930c305a1115b994faf2a4c7bda
+    size: 423708
+    cloud:
+      s3:
+        etag: 9805f930c305a1115b994faf2a4c7bda
+        version_id: 1dee4a0a-b24f-44df-a4ba-13fc843c047c
+  - relpath: Raw/06.html
+    md5: aaccc171c880d8460f1697fc45f56793
+    size: 213209
+    cloud:
+      s3:
+        etag: aaccc171c880d8460f1697fc45f56793
+        version_id: e0e9b62f-4945-41d0-afac-51f8dfc274d4
+  - relpath: Raw/07.csv
+    md5: 9ff4a9f144e780ac94ee01ea67ef78c7
+    size: 88090
+    cloud:
+      s3:
+        etag: 9ff4a9f144e780ac94ee01ea67ef78c7
+        version_id: d3d208c0-57ec-4d96-95cd-eb3f6fcd7e67
+  - relpath: Raw/08.txt
+    md5: 63e7c9752bd621dc1d4f32c127876f2d
+    size: 760795
+    cloud:
+      s3:
+        etag: 63e7c9752bd621dc1d4f32c127876f2d
+        version_id: 795aeaaa-eaaa-46d6-8dda-f5287177aa7d
