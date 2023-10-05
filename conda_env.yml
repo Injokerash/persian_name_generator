@@ -1,0 +1,21 @@
+name: persan_name_generator
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - codecov
+  - pip
+  - pip:
+    - click
+    - mlflow==2.7.1
+    - torch==2.0.0
+    - pandas
+    - numpy
+    - boto3
+variables:
+  AWS_ACCESS_KEY_ID: admin
+  AWS_SECRET_ACCESS_KEY: sample_key
+  MLFLOW_S3_ENDPOINT_URL: http://localhost:9000
+  MLFLOW_TRACKING_URI: http://localhost:5000

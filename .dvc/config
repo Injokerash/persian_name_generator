@@ -1,0 +1,8 @@
+[core]
+    remote = s3
+['remote "s3"']
+    url = s3://persiannamegenerator
+    version_aware = true
+    endpointurl = http://localhost:9000
+['remote "myremote"']
+    url = s3://persiannamegenerator

@@ -1,0 +1,18 @@
+name: persian_name_generator
+
+conda_env: conda_env.yml
+
+entry_points:
+  MLP:
+    parameters:
+      name: { type : str, default : 'MLP' }
+      padding: { type : int, default : 2}
+      embedding_dim: { type : int, default: 4}
+      hidden_size: { type : int, default : 100}
+      epochs : { type : int, default : 30}
+      learning_rate : { type : float, default : .01}
+      batch_size : { type : int, default : 128}
+      data_url : { type : str, default : ./Data/Processed/names.txt}
+      seed : { type : int, default : 2}
+      train_size_ratio : { type : float, default : .9}
+    command: "python Code/Modeling/MLP/mlp.py --name {name} --padding {padding} --hidden-size {hidden_size} --epochs {epochs} --embedding-dim {embedding_dim} --learning-rate {learning_rate} --batch-size {batch_size} --data-url {data_url} --seed {seed} --train-size-ratio {train_size_ratio}"
